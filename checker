@@ -1,0 +1,33 @@
+# A simple calorie checker
+
+def main():
+    # Initialize a dictionary to store food and calories
+    food_calories = {}
+    
+    while True:
+        # Ask the user for the food item
+        food_item = input("Enter a food item (or type 'done' to finish): ").strip().lower()
+        
+        # Check if the user is done entering items
+        if food_item == 'done':
+            break
+        
+        # Ask the user for the calorie count of the food item
+        try:
+            calories = int(input(f"Enter the calories for {food_item}: "))
+            # Store the food item and its calories in the dictionary
+            food_calories[food_item] = calories
+        except ValueError:
+            print("Please enter a valid number for calories.")
+    
+    # Calculate the total calorie intake
+    total_calories = sum(food_calories.values())
+    
+    # Display the total calorie intake
+    print("\nTotal Calorie Intake:")
+    for food, calories in food_calories.items():
+        print(f"{food}: {calories} kkal")
+    print(f"Total: {total_calories} kkal")
+
+if __name__ == "__main__":
+    main()
