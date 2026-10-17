@@ -102,3 +102,4 @@ synthetic inputs, not nutritional measurements.
 | 87 | `item-a` = `invalid`; `item-a` = 87 | 87 kkal | Print one error, then store the valid entry |
 | 88 | `item-a` = `invalid`; `item-a` = 88 | 88 kkal | Print one error, then store the valid entry |
 | 89 | `item-a` = `invalid`; `item-a` = 89 | 89 kkal | Print one error, then store the valid entry |
+| 90 | `item-a` = `invalid`; `item-a` = 90 | 90 kkal | Print one error, then store the valid entry |
