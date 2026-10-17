@@ -62,3 +62,4 @@ synthetic inputs, not nutritional measurements.
 | 47 | `" item-a "` = 47; `ITEM-A` = 94 | 94 kkal | Keep only the replacement value |
 | 48 | `" item-a "` = 48; `ITEM-A` = 96 | 96 kkal | Keep only the replacement value |
 | 49 | `" item-a "` = 49; `ITEM-A` = 98 | 98 kkal | Keep only the replacement value |
+| 50 | `" item-a "` = 50; `ITEM-A` = 100 | 100 kkal | Keep only the replacement value |
