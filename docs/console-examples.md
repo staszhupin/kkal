@@ -79,3 +79,4 @@ synthetic inputs, not nutritional measurements.
 | 64 | `" item-a "` = 64; `ITEM-A` = 128 | 128 kkal | Keep only the replacement value |
 | 65 | `" item-a "` = 65; `ITEM-A` = 130 | 130 kkal | Keep only the replacement value |
 | 66 | `" item-a "` = 66; `ITEM-A` = 132 | 132 kkal | Keep only the replacement value |
+| 67 | `item-a` = `invalid`; `item-a` = 67 | 67 kkal | Print one error, then store the valid entry |
