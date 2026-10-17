@@ -14,3 +14,4 @@ synthetic inputs, not nutritional measurements.
 | Example | Inputs, in order | Expected total | Expected behavior |
 | --- | --- | --- | --- |
 | 1 | `item-a` = 0; `item-b` = 0 | 0 kkal | Add both entries |
+| 2 | `item-a` = 20; `item-b` = 6 | 26 kkal | Add both entries |
