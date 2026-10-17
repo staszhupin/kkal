@@ -26,3 +26,4 @@ synthetic inputs, not nutritional measurements.
 | 11 | `item-a` = 110; `item-b` = 33 | 143 kkal | Add both entries |
 | 12 | `item-a` = 120; `item-b` = 36 | 156 kkal | Add both entries |
 | 13 | `item-a` = 130; `item-b` = 39 | 169 kkal | Add both entries |
+| 14 | `item-a` = 140; `item-b` = 42 | 182 kkal | Add both entries |
